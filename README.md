@@ -1,4 +1,4 @@
-# 🔍 APK & Code Analysis Tool
+# 🔍 APK & Code Analysis Tool by Luigi Origa
 
 I often need to perform source code reviews, and since the code is confidential, I can't use "suspicious" programs to analyze it.  
 Over time, I wrote this small tool to make searching for basic patterns a bit easier.
