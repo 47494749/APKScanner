@@ -20,6 +20,8 @@ My little program simply unpacks APKs, decompiles Java code, and tries to extrac
 - Export all collected data into SQLite3 databases  
 - Extract imported/exported functions from `.so` files  
 - Mount and extract contents from `squashfs` image files
+- Find possible java files used for Activities, Services, Receivers, Providers
+- Export the JSON data
 
 ---
 
