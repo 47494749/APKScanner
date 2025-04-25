@@ -48,6 +48,7 @@ At the end, a directory is created with lists of files containing:
 - String initializations  
 - Static string comparisons in `if` conditions  
 - All URLs found
+- Summary of the Java files grouped by Packages
 
 A subdirectory is also created for the same results **only for third-party public libraries**.
 
