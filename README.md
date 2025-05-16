@@ -9,7 +9,7 @@ My little program simply unpacks APKs, decompiles Java code, and tries to extrac
 
 ---
 
-## 🔧 Features
+## 🔧 Features in Version 0.4
 
 - Decompile APK files  
 - Decompile Java code  
@@ -22,6 +22,7 @@ My little program simply unpacks APKs, decompiles Java code, and tries to extrac
 - Mount and extract contents from `squashfs` image files
 - Find possible java files used for Activities, Services, Receivers, Providers
 - Export the JSON data
+- Decompress all XML files
 
 ---
 
@@ -49,7 +50,7 @@ At the end, a directory is created with lists of files containing:
 - Static string comparisons in `if` conditions  
 - All URLs found
 - Summary of the Java files grouped by Packages
-
+- Short Analysis of Android XML manifest
 A subdirectory is also created for the same results **only for third-party public libraries**.
 
 ---
@@ -66,6 +67,7 @@ Make sure the following tools are installed and available in your system's `PATH
 - `sqlite3`  
 - `unsquashfs`  
 - `7z`
+- python `AXMLPrinter` library
 
 ---
 
